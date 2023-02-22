@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Assessment</title>
+</head>
+<body>
+    <center><h1>HTML Assessment</h1></center>
+    <br>
+    <center><h4>HTML Assessment from PrepBytes</h4></center>
+    <br>
+    <hr>
+    <center><p>image used from Absolute Path</p></center>
+    <center><img src="./logoPrepBytes.svg" alt="logoPrepBytes" width="200px"></center>
+    <center><p>image used from Relative path</p></center>
+    <center><img src="https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=480&h=320" alt="nature image" width="200px"></center>
+    <br>
+    <center><a href="https://www.prepbytes.com/" target="_blank">link should be open in another tab </a></center>
+    <br>
+    <center><a href="https://www.prepbytes.com/">link should be open in same tab</a></center>
+    <br>
+    <hr>
+    <center><h2>Form</h2></center>
+    <form action="./index.html" method="get" target="_self">
+        <center><label>Name :<input type="text" name="First Name" placeholder="Name" required</label></center>
+        <br>
+            <center><label>Email Address: <input type="email" name="Email Address" placeholder="email" required</label></center>
+            <br>
+                <center><label>Password: <input type="text" name="Password" placeholder="Password" required</label></center>
+                <br>
+                    <center><label>Phone Number: <input type="tel" name="Phone Number" placeholder="number" requiredS</label></center>
+                    <br>
+    <center><label >Language</label></center><br>
+        <center><input type="radio" name="Language" value="React"/>
+        React </center>
+            <center><input type="radio" name="Language" value="Angular"/>
+                 Angular</center>
+                        <center><input type="radio" name="Language" value="Vue"/>
+                             Vue </center>
+                             <br>
+    <center><label>Course</label></center><br>
+            <center><input type="checkbox" name="Course" value="MERN"/>
+            MERN </center>
+                <center><input type="checkbox" name="Course" value="MEAN"/>
+                MEAN</center>
+                    <center><input type="checkbox" name="Course" value="MEVN"/>
+                    MEVN </center>
+                    <br>
+    <center><label>Field</label></center>
+    <center><select name="dropdown">
+        <option value="FrontEnd" selected>FrontEnd</option>
+        <option value="BackEnd" selected>BackEnd</option>
+        <option value="Fullstack" selected>Fullstack</option>
+    </select></center>
+    <br>
+    <center><button type="submit" value="submit" required>submit</button></center>
+    </form>
+    <br>
+    <hr>
+    <h2>List</h2>
+    <ul type="disc">
+        <li>Mobile Development</li>
+        <li>Web Development</li>
+        <ul type="disc">
+            <li>React</li>
+            <li>Angular</li>
+            <li>Vue</li>
+        </ul>
+        <li>Cloud Server</li>
+    </ul>
+    <br>
+    <hr>
+    <center><h2>Table</h2></center>
+    <center><table table width="40%" cellspacing="2" cellpadding="2" border="1">
+            <tr>
+                <th>Course</th>
+                <th colspan="2" bgcolor="grey">Contact Details</th>
+                <th>Date of Joining</th>
+                    <tr>
+                        <td>Elevation Academy</td>
+                        <td colspan="2">1263576576</td>
+                        <td>2 Dec 2022</td>
+                            <tr>
+                                <td bgcolor="grey">Elevation Academy</td>
+                                <td rowspan="2">635126535452</td>
+                                <td colspan="2">2 Dec 2022</td>
+                                    <tr>
+                                        <td>Elevation Academy</td>
+                                        <td rowspan="2" bgcolor="grey">2 Dec 2022</td>
+                                    </tr>
+                            </tr>
+                    </tr>
+                </tr>
+    </table></center><br>
+    <hr>
+</body>
+</html>
